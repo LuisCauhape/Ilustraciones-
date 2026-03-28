@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Luis Cauhapé — Archivo Visual</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Archivo visual de ilustraciones y diseño gráfico de Luis Cauhapé." />
+
+  <link rel="icon" href="./Ilustraciones/MArca sola para WEb_Mesa de trabajo 1.png" type="image/x-icon" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+  <!-- CURSOR CUSTOM -->
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- ── LAYOUT PRINCIPAL ── -->
+  <main class="main-layout" id="site-top">
+
+    <!-- blobs de fondo -->
+    <div class="blob-wrap">
+      <div class="blob" style="width:500px;height:500px;background:var(--cyan);top:-80px;left:-120px;animation-delay:0s"></div>
+      <div class="blob" style="width:340px;height:340px;background:var(--lime);bottom:10%;right:-80px;animation-delay:5s"></div>
+      <div class="blob" style="width:260px;height:260px;background:var(--pink);top:40%;left:20%;animation-delay:2.5s;opacity:.06"></div>
+    </div>
+
+    <div class="container layout-inner">
+
+      <!-- ── SIDEBAR ── -->
+      <aside class="sidebar">
+        <div class="sidebar-sticky">
+          <div class="hero-badge">
+            <div class="badge-pill">Archivo Visual · 2026</div>
+          </div>
+
+          <h1 class="hero-h1">
+            Luis<br/><em>Cauhapé.</em>
+          </h1>
+
+          <p class="hero-lead">Diseñador gráfico<br/>Ilustrador · UX</p>
+
+          <a
+            href="https://luiscauhape.github.io/Mi-Sitio-Web/"
+            target="_blank"
+            rel="noopener"
+            class="btn-primary"
+          >
+            Portfolio ↗
+          </a>
+
+          <div class="sidebar-meta">
+            <span class="section-label" style="margin-bottom:0">Ilustraciones</span>
+          </div>
+        </div>
+      </aside>
+
+      <!-- ── GALERÍA ── -->
+      <section class="archivo" id="galeria">
+        <h2 class="section-title reveal">Archivo <em>Visual.</em></h2>
+
+        <div id="gallery" class="archivo-grid">
+          <!-- Las tarjetas se inyectan por JS -->
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ── MODAL ── -->
+  <div id="modal" class="archivo-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="archivo-modal-content">
+      <button id="closeModal" aria-label="Cerrar">×</button>
+      <div class="modal-header">
+        <h2 id="modalTitle"></h2>
+        <div id="modalYear" class="modal-meta"></div>
+        <p id="modalDesc" class="modal-desc"></p>
+      </div>
+      <!-- tools, count e imágenes se inyectan por JS -->
+    </div>
+  </div>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> Luis Cauhapé — Diseñador en Comunicación Visual</small>
+      <a href="#site-top" class="btn-outline js-scroll-top" style="padding:.55rem 1.2rem;font-size:.82rem">
+        Volver arriba ↑
+      </a>
+    </div>
+  </footer>
+
+  <!-- DATA -->
+  <script src="./data/projects.js"></script>
+  <!-- LÓGICA -->
+  <script src="./data/js/gallery.js"></script>
+
+</body>
+</html>
