@@ -10,8 +10,8 @@ const projects = [
     description: "Momento exacto en que la infancia, el hogar y los sueños dejan de ser seguros. Una composición oscura que captura la tensión entre lo familiar y lo ominoso.",
     tools: ["Photoshop", "Wacom", "ArtStation"],
     images: [
-       "./Ilustraciones/luis-diseno-nightmare-tres-artstation.webp",
-    ]
+  "./ilustraciones/luis-diseno-nightmare-tres-artstation.webp"
+]
   },
   {
     title: "Paisaje",
