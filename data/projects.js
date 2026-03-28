@@ -10,7 +10,7 @@ const projects = [
     description: "Momento exacto en que la infancia, el hogar y los sueños dejan de ser seguros. Una composición oscura que captura la tensión entre lo familiar y lo ominoso.",
     tools: ["Photoshop", "Wacom", "ArtStation"],
     images: [
-       "../ilustraciones/luis-diseno-nightmare-tres-artstation.webp",
+       "../Ilustraciones/luis-diseno-nightmare-tres-artstation.webp",
     ]
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     description: "Exploración de pinceles personalizados para lograr un estilo de pintura digital único. Cada pieza busca capturar la luz y la atmósfera de escenas naturales.",
     tools: ["Photoshop", "Pinceles custom", "Wacom"],
     images: [
-      "../ilustraciones/Mesa de trabajo 1.jpg",
+      "../Ilustraciones/Mesa de trabajo 1.jpg",
       "./ilustraciones/Flor1.jpg",
       "./ilustraciones/Flor2.jpg",
       "./ilustraciones/Flor3.jpg",
