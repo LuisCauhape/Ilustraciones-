@@ -60,7 +60,7 @@ const projects = [
     description: "Un instante suspendido entre la inocencia y el peligro. La composición juega con la tensión del momento previo, dejando al espectador en el umbral.",
     tools: ["Photoshop", "Wacom", "Procreate"],
     images: [
-      "./ilustraciones/fb66778b-5c48-4f99-8685-377dc06a76a8.png",
+      "./Ilustraciones/fb66778b-5c48-4f99-8685-377dc06a76a8.png",
     ]
   }
 ];
