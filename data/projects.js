@@ -34,9 +34,9 @@ const projects = [
     description: "Diseño de etiquetas para productos de destilería. El desafío fue crear una identidad visual que equilibre elegancia y carácter artesanal.",
     tools: ["Illustrator", "Photoshop", "InDesign"],
     images: [
-      "./ilustraciones/Etiqueta Uno.jpg",
-      "./ilustraciones/Dibujo de Etiqueta Dos.jpg",
-      "./ilustraciones/Imagen de etiqueta.jpg",
+      "./Ilustraciones/Etiqueta Uno.jpg",
+      "./Ilustraciones/Dibujo de Etiqueta Dos.jpg",   
+      "./Ilustraciones/Imagen de etiqueta.jpg",
     ]
   },
   {
@@ -46,11 +46,11 @@ const projects = [
     description: "Serie de ilustraciones para un sitio web de tarot. Cada carta fue diseñada con simbología propia, combinando lo místico con una estética contemporánea.",
     tools: ["Illustrator", "Photoshop", "Procreate"],
     images: [
-      "./ilustraciones/02.jpg",
-      "./ilustraciones/03.jpg",
-      "./ilustraciones/04.jpg",
-      "./ilustraciones/06.jpg",
-      "./ilustraciones/07.jpg",
+      "./Ilustraciones/02.jpg",
+      "./Ilustraciones/03.jpg",
+      "./Ilustraciones/04.jpg",
+      "./Ilustraciones/06.jpg",
+      "./Ilustraciones/07.jpg",
     ]
   },
   {
