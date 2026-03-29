@@ -20,9 +20,11 @@ const projects = [
     description: "Exploración de pinceles personalizados para lograr un estilo de pintura digital único. Cada pieza busca capturar la luz y la atmósfera de escenas naturales.",
     tools: ["Photoshop", "Pinceles custom", "Wacom"],
     images: [
-        "./Ilustraciones/flor3.jpg",
-  "./Ilustraciones/Mesa-de-trabajo-1.jpg",
-  "./Ilustraciones/Flor1.jpg",
+        "./Ilustraciones/Mesa de trabajo 1.jpg",
+      "./Ilustraciones/Flor1.jpg",
+      "./Ilustraciones/Flor2.jpg",
+      "./Ilustraciones/flor3.jpg",
+      "./Ilustraciones/Flor4.jpg",
 ]
   },
   {
