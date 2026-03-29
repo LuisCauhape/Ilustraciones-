@@ -21,7 +21,7 @@ const projects = [
     tools: ["Photoshop", "Pinceles custom", "Wacom"],
     images: [
         "./Ilustraciones/flor3.jpg",
-  "./Ilustraciones/Mesa de trabajo 1.jpg",
+  "./Ilustraciones/Mesa-de-trabajo-1.jpg",
   "./Ilustraciones/Flor1.jpg",
 ]
   },
